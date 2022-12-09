@@ -18,6 +18,12 @@ ADD ./assets/CHANGELOG.md /var/www/CHANGELOG.md
 ## ***********************************************************************
 ##  IMAGE VARIABLES
 ## ***********************************************************************
+EXPOSE 22
+EXPOSE 3306
+EXPOSE 80
+EXPOSE 8888
+EXPOSE 9998
+EXPOSE 9999
 ENV TZ Europe/Berlin
 ENV PHP_VERSION 7.4
 ENV APACHE_DOCROOT /var/www/html/public
